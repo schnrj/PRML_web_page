@@ -1,0 +1,25 @@
+/* Paper.css */
+
+.abstract-container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.abstract-header {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+  text-align: center;
+}
+
+.abstract-content {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555555;
+}
+

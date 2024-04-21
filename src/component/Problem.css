@@ -1,0 +1,61 @@
+/* Paper.css */
+
+.paper-container {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.paper-header {
+  color: #333333;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.contribution-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contribution-list li {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.bullet {
+  color: #007bff; /* Blue bullet color */
+  margin-right: 12px;
+}
+
+.author {
+  font-style: italic;
+  color: #555555;
+}
+
+.author::before {
+  content: "by ";
+}
+
+.author::after {
+  content: ",";
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Optional: Add hover effect for list items */
+.contribution-list li:hover {
+  background-color: #edf2f7;
+  border-radius: 8px;
+}

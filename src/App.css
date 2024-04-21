@@ -1,0 +1,128 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8; /* Light gray background */
+}
+
+/* Container for the entire application */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Component styles */
+.component {
+  width: 80%;
+  margin-top: 20px;
+  background-color: #fff; /* White background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #333; /* Dark gray text color */
+}
+
+/* Subheader styles */
+.header_context, .header_Problem {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+/* Text content styles */
+.context, .contact_info {
+  line-height: 1.6;
+  margin-top: 15px;
+  color: #666; /* Light gray text color */
+}
+
+/* Image styles */
+.pro_imag {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px; /* Rounded corners */
+}
+
+/* Video styles */
+.youtube_video {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Code block styles */
+.code {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-x: auto;
+}
+
+/* Citation styles */
+.citation {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  padding: 15px;
+}
+
+.author {
+  font-weight: bold;
+  color: #333;
+}
+
+.title {
+  font-style: italic;
+}
+
+.booktitle {
+  font-weight: bold;
+  color: blue;
+}
+
+/* Profile container styles */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.profile_container {
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.profile_pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .component {
+    width: 90%;
+  }
+}

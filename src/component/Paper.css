@@ -1,0 +1,40 @@
+/* Paper.css */
+
+.paper-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.paper-header {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contribution-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contribution-list li {
+  margin-bottom: 10px;
+}
+
+.bullet {
+  color: #007bff; /* Blue bullet color */
+  margin-right: 5px;
+}
+
+.author {
+  font-style: italic;
+}
+
+.author::before {
+  content: "by ";
+}
+
+.author::after {
+  content: ",";
+}
